@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEEP Informa - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="split-screen">
+    <!-- Painel Lateral Esquerdo -->
+    <div class="left-panel">
+      <div class="brand-content">
+        <h1>ceep<br>Informa</h1>
+        <p class="subtitle">Plataforma de Avisos Escolares</p>
+      </div>
+      <p class="quote">"A informação é a base para uma escola mais unida e conectada."</p>
+    </div>
+
+    <!-- Painel Direito (Formulário de Login) -->
+    <div class="right-panel">
+      <form id="form-login" class="auth-form">
+        <h2>Entrar na conta</h2>
+        <p class="form-desc">Insira seus dados para acessar o mural de avisos.</p>
+        
+        <div class="input-group">
+          <input type="email" id="login-email" placeholder="E-mail institucional" required>
+        </div>
+        
+        <div class="input-group">
+          <input type="password" id="login-senha" placeholder="Sua senha" required>
+        </div>
+
+        <button type="submit" class="btn-submit">Entrar</button>
+
+        <p class="toggle-text">
+          Ainda não tem uma conta? <a href="cadastro.html">Cadastre-se</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
